@@ -1,0 +1,6 @@
+framework module GLWKit {
+  umbrella header "GLWKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

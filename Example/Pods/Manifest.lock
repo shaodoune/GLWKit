@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GLWKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GLWKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GLWKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GLWKit: c2fd88ad92671c25729cba76e9100670a4b6587d
+
+PODFILE CHECKSUM: 0a19250da708805100ba335033507e7fbabfe6a5
+
+COCOAPODS: 1.8.4

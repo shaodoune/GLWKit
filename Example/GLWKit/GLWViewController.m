@@ -7,6 +7,7 @@
 //
 
 #import "GLWViewController.h"
+#import <GLWDevice.h>
 
 @interface GLWViewController ()
 
@@ -18,6 +19,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    if ([GLWDevice isPad]) {
+        NSLog(@"---平板");
+    }
+    if ([GLWDevice isPhone]) {
+        NSLog(@"---手机");
+    }
+    if ([GLWDevice isDevice]) {
+        NSLog(@"---真机");
+    }
+    else {
+        NSLog(@"---模拟器");
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
