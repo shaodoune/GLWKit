@@ -447,11 +447,11 @@ static GLWDevicePlatformType glw_platform_type;
 /**
  通过设备的分辨率获取设备型号
  */
-+(GLWDevicePlatformType)getPlatformOfDeviceByResolution{
-    CGSize resolution = [UIScreen mainScreen].currentMode.size;
-    
-    
-}
+//+(GLWDevicePlatformType)getPlatformOfDeviceByResolution{
+//    CGSize resolution = [UIScreen mainScreen].currentMode.size;
+//
+//
+//}
 
 /// 可以利用 CGFloat a = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom；当a大于0时即是iPhone X ，XR，XS ，XS Max等。
 #define isIphoneX ({\
